@@ -1,13 +1,23 @@
+"use client";
+import { FaSearch, FaClipboard } from "react-icons/fa";
+
 import "./styles.scss";
 import { Button } from "@/components/ui/button";
-import { FaSearch } from "react-icons/fa";
+import { useToast } from "@/components/ui/use-toast";
 
 export default function Home() {
+  const { toast } = useToast();
+
+  const onCopy = (content: string) => {
+    toast({ description: "Copied to cliboard" });
+    navigator.clipboard.writeText(content);
+  };
+
   return (
     <>
       <main>
-        <div className="ml-auto mr-auto max-w-[480px] py-24">
-          <h2 className="text-4xl md:text-6xl font-bold">
+        <div className="ml-auto mr-auto max-w-[640px] py-24 px-8">
+          <h2 className="text-6xl font-bold">
             Be 😁 building websites 🏎️ <em className="text-xs">quickly</em> with
             emojis and style
           </h2>
@@ -20,17 +30,17 @@ export default function Home() {
               Get Started
             </Button>
             <Button
+              onClick={() => onCopy("npm i styleglyph")}
               className="col-span-2 flex gap-2 items-center text-slate-400 border-slate-500"
               variant="outline"
             >
-              <FaSearch />
-              Quick search...
+              npm i styleglyph
+              <FaClipboard />
             </Button>
           </div>
         </div>
       </main>
-      <section>
-      </section>
+      <section></section>
     </>
   );
 }
