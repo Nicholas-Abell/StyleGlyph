@@ -65,6 +65,17 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+
+.html-tag {
+  color: rgb(133, 164, 250);
+}
+.class-name {
+  color: orange;
+}
+
+.hide{
+  visibility: hidden;
+}
  
 @layer base {
   * {
