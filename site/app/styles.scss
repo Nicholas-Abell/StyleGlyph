@@ -76,3 +76,58 @@
 .😶‍🌫️ {
   opacity: 50%;
 }
+
+//shapes
+.🟥 {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+
+  &-md {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+  }
+
+  &-lg {
+    width: 360px;
+    height: 360px;
+    background-color: red;
+  }
+}
+
+.🟦 {
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+
+  &-md {
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+  }
+
+  &-lg {
+    width: 360px;
+    height: 360px;
+    background-color: blue;
+  }
+}
+
+.🟩 {
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  background-color: rgb(110, 194, 110);
+
+  &-md {
+    width: 180px; /* Adjust the width as needed */
+    height: 180px; /* Adjust the height as needed */
+    background-color: rgb(110, 194, 110);
+  }
+
+  &-lg {
+    width: 360px; /* Adjust the width as needed */
+    height: 360px; /* Adjust the height as needed */
+    background-color: rgb(110, 194, 110);
+  }
+}
