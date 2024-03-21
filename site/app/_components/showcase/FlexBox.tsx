@@ -13,8 +13,8 @@ type FlexBoxProps = {};
 
 const FlexBox: React.FC<FlexBoxProps> = () => {
   const [api, setApi] = React.useState<CarouselApi>();
-  const [current, setCurrent] = React.useState(0);
-  const [count, setCount] = React.useState(0);
+  const [current, setCurrent] = React.useState(1);
+  const [count, setCount] = React.useState(3);
 
   React.useEffect(() => {
     if (!api) {
