@@ -42,6 +42,11 @@ export default function Home() {
         </div>
       </main>
       <FlexBox />
+      <div className="w-full flex items-center justify-center py-8 gap-4">
+        <button className="border border-blue-400 rounded-full px-8 py-6">X</button>
+        <button className="border border-blue-400 rounded-full px-8 py-6">Y</button>
+        <button className="border border-blue-400 rounded-full px-8 py-6">Z</button>
+      </div>
     </>
   );
 }
