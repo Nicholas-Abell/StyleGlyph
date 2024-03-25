@@ -1,3 +1,4 @@
+//Flex Box
 .💪,
 .💪🏻,
 .💪🏼,
@@ -47,6 +48,7 @@
   }
 }
 
+//Opacity&Display
 .🖕,
 .🖕🏻,
 .🖕🏽,
@@ -64,6 +66,15 @@
   }
 }
 
+.😶‍🌫️,
+.👻 {
+  opacity: 50%;
+}
+
+.🫥 {
+  border: dotted 1px;
+}
+
 .👈,
 .👈🏻,
 .👈🏼,
@@ -71,10 +82,6 @@
 .👈🏾,
 .👈🏿 {
   padding-left: 1rem;
-}
-
-.😶‍🌫️ {
-  opacity: 50%;
 }
 
 //shapes
@@ -114,6 +121,7 @@
   }
 }
 
+//Shapes
 .🟩 {
   width: 60px; /* Adjust the width as needed */
   height: 60px; /* Adjust the height as needed */
