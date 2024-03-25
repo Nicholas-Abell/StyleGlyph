@@ -67,41 +67,7 @@ const FlexBox: React.FC<FlexBoxProps> = () => {
                   <span className="html-tag">div</span>&gt;
                 </code>
               </div>
-              <div className="border border-gray-300 rounded-lg p-4 flex gap-4 items-center">
-                <div className="🟥" />
-                <div className="🟦" />
-                <div className="🟩" />
-              </div>
-            </CarouselItem>
-            <CarouselItem className="grid grid-cols-1 gap-4">
-              <div className="flex justify-center items-center w-full bg-slate-800 rounded-lg">
-                <code className="text-sm text-slate-50 p-4">
-                  <p className="underline">Flex Column</p>
-                  &lt;<span className="html-tag">div</span>{" "}
-                  <span className="class-name">class</span>=&quot;
-                  <span className="class-name">💪👇</span>
-                  &quot;&gt;
-                  <br />
-                  <span className="hide">...</span>&lt;
-                  <span className="html-tag">div</span>{" "}
-                  <span className="class-name">class</span>=&quot;
-                  <span className="class-name">🟥</span>&quot;/&gt;
-                  <br />
-                  <span className="hide">...</span>
-                  &lt;<span className="html-tag">div</span>{" "}
-                  <span className="class-name">class</span>=&quot;
-                  <span className="class-name">🟦</span>&quot;/&gt;
-                  <br />
-                  <span className="hide">...</span>
-                  &lt;<span className="html-tag">div</span>{" "}
-                  <span className="class-name">class</span>=&quot;
-                  <span className="class-name">🟩</span>&quot;/&gt;
-                  <br />
-                  &lt;/
-                  <span className="html-tag">div</span>&gt;
-                </code>
-              </div>
-              <div className="💪👇 border border-gray-300 rounded-lg p-4 gap-4 items-center">
+              <div className="border border-gray-300 rounded-lg p-4 flex gap-4 items-center justify-center">
                 <div className="🟥" />
                 <div className="🟦" />
                 <div className="🟩" />
@@ -135,7 +101,41 @@ const FlexBox: React.FC<FlexBoxProps> = () => {
                   <span className="html-tag">div</span>&gt;
                 </code>
               </div>
-              <div className="💪👈 border border-gray-300 rounded-lg p-4 gap-4 items-center">
+              <div className="💪👈 border border-gray-300 rounded-lg p-4 gap-4 items-center justify-center">
+                <div className="🟥" />
+                <div className="🟦" />
+                <div className="🟩" />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="grid grid-cols-1 gap-4">
+              <div className="flex justify-center items-center w-full bg-slate-800 rounded-lg">
+                <code className="text-sm text-slate-50 p-4">
+                  <p className="underline">Flex Column</p>
+                  &lt;<span className="html-tag">div</span>{" "}
+                  <span className="class-name">class</span>=&quot;
+                  <span className="class-name">💪👇</span>
+                  &quot;&gt;
+                  <br />
+                  <span className="hide">...</span>&lt;
+                  <span className="html-tag">div</span>{" "}
+                  <span className="class-name">class</span>=&quot;
+                  <span className="class-name">🟥</span>&quot;/&gt;
+                  <br />
+                  <span className="hide">...</span>
+                  &lt;<span className="html-tag">div</span>{" "}
+                  <span className="class-name">class</span>=&quot;
+                  <span className="class-name">🟦</span>&quot;/&gt;
+                  <br />
+                  <span className="hide">...</span>
+                  &lt;<span className="html-tag">div</span>{" "}
+                  <span className="class-name">class</span>=&quot;
+                  <span className="class-name">🟩</span>&quot;/&gt;
+                  <br />
+                  &lt;/
+                  <span className="html-tag">div</span>&gt;
+                </code>
+              </div>
+              <div className="💪👇 border border-gray-300 rounded-lg p-4 gap-4 items-center justify-center">
                 <div className="🟥" />
                 <div className="🟦" />
                 <div className="🟩" />
@@ -158,33 +158,6 @@ const FlexBox: React.FC<FlexBoxProps> = () => {
               &lt;<span className="html-tag">div</span>{" "}
               <span className="class-name">class</span>=&quot;
               <span className="class-name">💪</span>
-              &quot;&gt;
-              <br />
-              <span className="hide">...</span>&lt;
-              <span className="html-tag">div</span>{" "}
-              <span className="class-name">class</span>=&quot;
-              <span className="class-name">🟥</span>&quot;/&gt;
-              <br />
-              <span className="hide">...</span>
-              &lt;<span className="html-tag">div</span>{" "}
-              <span className="class-name">class</span>=&quot;
-              <span className="class-name">🟦</span>&quot;/&gt;
-              <br />
-              <span className="hide">...</span>
-              &lt;<span className="html-tag">div</span>{" "}
-              <span className="class-name">class</span>=&quot;
-              <span className="class-name">🟩</span>&quot;/&gt;
-              <br />
-              &lt;/
-              <span className="html-tag">div</span>&gt;
-            </code>
-          </div>
-          <div className="flex justify-center items-center w-full bg-slate-800 rounded-lg">
-            <code className="text-sm text-slate-50 p-4">
-              <p className="underline">Flex Column</p>
-              &lt;<span className="html-tag">div</span>{" "}
-              <span className="class-name">class</span>=&quot;
-              <span className="class-name">💪👇</span>
               &quot;&gt;
               <br />
               <span className="hide">...</span>&lt;
@@ -233,19 +206,46 @@ const FlexBox: React.FC<FlexBoxProps> = () => {
               <span className="html-tag">div</span>&gt;
             </code>
           </div>
+          <div className="flex justify-center items-center w-full bg-slate-800 rounded-lg">
+            <code className="text-sm text-slate-50 p-4">
+              <p className="underline">Flex Column</p>
+              &lt;<span className="html-tag">div</span>{" "}
+              <span className="class-name">class</span>=&quot;
+              <span className="class-name">💪👇</span>
+              &quot;&gt;
+              <br />
+              <span className="hide">...</span>&lt;
+              <span className="html-tag">div</span>{" "}
+              <span className="class-name">class</span>=&quot;
+              <span className="class-name">🟥</span>&quot;/&gt;
+              <br />
+              <span className="hide">...</span>
+              &lt;<span className="html-tag">div</span>{" "}
+              <span className="class-name">class</span>=&quot;
+              <span className="class-name">🟦</span>&quot;/&gt;
+              <br />
+              <span className="hide">...</span>
+              &lt;<span className="html-tag">div</span>{" "}
+              <span className="class-name">class</span>=&quot;
+              <span className="class-name">🟩</span>&quot;/&gt;
+              <br />
+              &lt;/
+              <span className="html-tag">div</span>&gt;
+            </code>
+          </div>
         </div>
         <div className="grid grid-cols-3 gap-2 pt-2">
-          <div className="border border-gray-300 rounded-lg p-4 flex gap-4 items-center">
+          <div className="border justify-center border-gray-300 rounded-lg p-4 flex gap-4 items-center">
             <div className="🟥" />
             <div className="🟦" />
             <div className="🟩" />
           </div>
-          <div className="💪👇 border border-gray-300 rounded-lg p-4 gap-4 items-center">
+          <div className="💪👈 border justify-center border-gray-300 rounded-lg p-4 gap-4 items-center">
             <div className="🟥" />
             <div className="🟦" />
             <div className="🟩" />
           </div>
-          <div className="💪👈 border border-gray-300 rounded-lg p-4 gap-4 items-center">
+          <div className="💪👇 border justify-center border-gray-300 rounded-lg p-4 gap-4 items-center">
             <div className="🟥" />
             <div className="🟦" />
             <div className="🟩" />
