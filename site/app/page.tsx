@@ -5,6 +5,7 @@ import "./styles.scss";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import FlexBox from "./_components/showcase/FlexBox";
+import BoxShadow from "./_components/showcase/BoxShadow";
 
 export default function Home() {
   const { toast } = useToast();
@@ -40,13 +41,20 @@ export default function Home() {
             </Button>
           </div>
         </div>
+        <FlexBox />
+        <BoxShadow />
+        {/* <div className="w-full flex items-center justify-center py-8 gap-4">
+          <button className="border border-blue-400 rounded-full px-8 py-6">
+            X
+          </button>
+          <button className="border border-blue-400 rounded-full px-8 py-6">
+            Y
+          </button>
+          <button className="border border-blue-400 rounded-full px-8 py-6">
+            Z
+          </button>
+        </div> */}
       </main>
-      <FlexBox />
-      <div className="w-full flex items-center justify-center py-8 gap-4">
-        <button className="border border-blue-400 rounded-full px-8 py-6">X</button>
-        <button className="border border-blue-400 rounded-full px-8 py-6">Y</button>
-        <button className="border border-blue-400 rounded-full px-8 py-6">Z</button>
-      </div>
     </>
   );
 }
